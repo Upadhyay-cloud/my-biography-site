@@ -1,0 +1,98 @@
+/* Reset and basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  position: relative;
+  color: white;
+}
+
+.background {
+  background-image: url('images/background.jpg.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(6px);
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.container {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  color: #ffd700;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.video-wrapper {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #fff;
+
+
+
+
+  
+  #feature-image {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+}
+
+}
